@@ -73,12 +73,12 @@
       <!-- page view -->
       <div class="container-fluid">
         <div class="row">
-            <div class="col-1 colum-vert">
+            <div class="col-lg-1 colum-vert">
               <p class="p-email">EXAMPLE@INFO.COM</p>
               <p class="p-number">+911234567890</p>
               <button class="vertical-button">LET'S TALK</button>
             </div>
-            <div class="col-3 box-left">
+            <div class="col-lg-3 col-sm-12 box-left">
                 <h6 class="text-h-left">CONVERTIBLE CAR SEATS</h6>
                 <h1 class="text-left">Better Stability and <span class="text-blue">Strength</span> to Absorb the shock</h1>
                 <p class="text-p-left">Sell globally in minutes with localized currencies, languages, and experience inevery market.</p>
@@ -109,7 +109,7 @@
             <div class="col-4">
                 <img src="./assets/product.png" class="imgCart" alt="imagen del carrito">
             </div>
-            <div class="col-3 box-certified">
+            <div class="col-lg-3 col-sm-12 box-certified">
                 <h4>Safety Certified</h4>
                 <div class="box-info">
                     <div class="info">
@@ -144,16 +144,31 @@
                     </ul>
                   </div>
                   <div class="box-video">
-                    <a href="" class="link-video">
+                    <a href="https://www.youtube.com/watch?v=hCWIMxAzlrM" class="link-video" data-bs-toggle="modal" data-bs-target="#video-modal">
                       <i class="bi bi-play-circle icon-video"></i>
                       <img src="./assets/product-video.png" class="img-video" alt="imagen del carrito">
                       <div class="card-video">
                         <p class="text-video">Enjoy the best quality and features made by MoonCart.</p>
                       </a>
                   </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="video-modal" tabindex="-1" aria-labelledby="mod" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=hCWIMxAzlrM" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 </div>                
             </div>
-            <div class="col-1 colum-vert2">
+            <div class="col-lg-1 colum-vert2">
               <p class="pvert-instagram">INSTAGRAM</p>
               <p class="pvert-facebook">FACEBOOK</p>
               <p class="pvert-twitter">TWITTER</p>
@@ -177,8 +192,8 @@
         </div>
         <!--fourth row companies-->
         <div class="row row-companies">
-          <div class="col-2"></div>
-          <div class="col-2 box-p">
+          <div class="col-sm-12 col-md-2 col-lg-2 "></div>
+          <div class="col-sm-12 col-md-2 col-lg-2  box-p">
             <p class="pbold-companies">We're just keep growing with 6.3k trusted companies</p> 
             <p class="p-companies">Nuliam nec ipsum luctus, vehicula massa in, dictum sapien. Aenean quis luctus ert nulia quam augue.</p>
           </div>
@@ -214,7 +229,7 @@
         </div>
         <!--fifth row footer-->
         <div class="row">
-          <div class="col box-grid-img">
+          <div class="col-4 box-grid-img">
             <div class="grid-img">
               <img src="./assets/pic1.png" alt="image family">
               <img src="./assets/pic2.png" alt="image children">
@@ -226,7 +241,7 @@
                 <p class="follow-instagram-text">Follow @moonCart for inspiration.</p>
               </div>
             </div>
-            <div class="info-footer">
+            <div class=" info-footer">
               <div class="rrss">
                 <img src="./assets/logo-white.png" alt="logo white">
                 <div class="icons-rrss">
