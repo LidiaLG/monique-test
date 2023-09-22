@@ -434,3 +434,20 @@ ul > p {
     color: #3A3C41;
     text-align: center;
 }
+
+@media (max-width: 1200px) {
+    .colum-vert, .colum-vert2 {
+        display: none;
+    }
+
+    .box-left {
+        order: 2;
+    }
+
+    .box-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
